@@ -149,7 +149,7 @@ body{
 }
 .container-riga-4{
     width: 70%;
-    height: 800px;
+    height: 1200px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -171,7 +171,7 @@ body{
     margin: 0 auto;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 .container-riga-6{
@@ -180,7 +180,7 @@ body{
     margin: 0 auto;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: end;
 }
 .contenitore-testo{
@@ -196,6 +196,12 @@ body{
     text-align: center;
     font-weight: bold;
     font-size: 35px;
+}
+.titolo-nero2{
+    color: black;
+    padding: 30px;
+    font-size: 35px;
+    text-align: center;
 }
 .contenuto-grande{
     color: rgb(0, 0, 0);
@@ -239,29 +245,69 @@ body{
 .rettangolo-rosso{
     width: 12%;
     height: 85%;
-    background-color: red;
-    border: 2px Dashed black;
+
 }
 .rettangolo-giallo{
     width: 7%;
-    height: 85%;
-    background-color: rgb(255, 217, 0);
-    border: 2px Dashed white;
+    height: 85%;;
 }
 .rettangolo-celeste{
-    width: 40%;
+    width: 90%;
     height: 70%;
-    background-color: rgb(0, 247, 255);
-    border: 2px Dashed white;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
-.pulsanti{
-    background-color: pink;
-    border: 2px Dashed rgb(0, 0, 0);
-    height: 30%;
-    width: 15%;
+.logo-2{
+    color: rgb(252, 252, 252);
+    width: 10%;
+    height: 30px;
+    padding: 5px;
+    background-color: rgb(0, 0, 0);
+    background-image: url(discord-assets/img/logo.svg);
+    background-repeat: no-repeat;
+}
+.bottone-finale{
+    background-color: rgb(4, 116, 116);
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
     text-align: center;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+}
+.titolo-fine{
+    color: cornflowerblue;
+    font-weight: bold;
+}
+.lingua{
+    padding: 2px;
+    margin: 10px;
+    display: flex;
+    height: 30px;
+    background-color: black;
+}
+.testo-lingua{
+    padding: 3px;
+    color: white;
+    text-align: end;
+}
+.lista{
+    list-style: none;
+}
+.capo-lista{
+    color: cornflowerblue;
+    padding: 5px;
+    font-weight: bold;
+}
+.oggetto-lista{
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+}
+.riga-fine{
+    width: 70%;
+    margin: 0 auto;
 }
